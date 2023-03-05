@@ -6,7 +6,7 @@ public class ArithmaticCalculator {
 
 	public static void main(String[] args) {
 		
-
+//Arithmetic Calculator is very useful it easy & Fast our calculation work 
 		//Scanner object creation for take input
 		Scanner num1 =new Scanner(System.in);
 		Scanner num2 =new Scanner(System.in);

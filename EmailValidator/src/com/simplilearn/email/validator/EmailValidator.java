@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class EmailValidator {
 
 
-
+	
 	public static void main(String[] args) {
 		// Email Validation
 		System.out.println(" Email check validation");
-
+		//store input from scanner
 	Scanner emailInp = new Scanner(System.in);
 	//Declare object
 	String inputUserEmail = emailInp.next();
