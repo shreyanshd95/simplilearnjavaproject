@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/index.css">
+      <title>Kitchen Story</title>
+   </head>
+   <body>
+      <img src="./images/logo.png" width="350" height="100"> 
+      <button class="btn right-button" style="background-color:#efcc00; color:#000000" id="adminLoginButton">Admin Login</button>
+      <br/>  
+      <hr>
+      <form>
+         <h4>Search products</h4>
+         
+            <input type="text" id="searchtext"  name="searchtext" placeholder="Search.." required/>  <br/> <br/>
+            <input class="btn"  id="searchbutton" type="button" value="Search" style="background-color:#228B22"/>  
+      </form>
+      <br/>  
+      <hr>
+      <br/> <br/>
+      <a href="products.html" class="btn" id="products">View all products</a> <br/> <br/> <br/> <br/>
+   </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+      document.getElementById("adminLoginButton").onclick = function() {
+      	location.href = "http://localhost:8081/adminlogin.html";
+      };
+      document.getElementById("searchbutton").onclick = function() {
+      	var searchtext = document.getElementById("searchtext").value.toLowerCase().trim();
+      	if(searchtext == ""){
+      		alert("Please enter product name to search.")
+      	}
+      	else{
+      	localStorage.setItem("searchItem", searchtext);
+      	location.href = "http://localhost:8081/searchproduct.html";
+      	}	
+      };
+   </script>
+</html>

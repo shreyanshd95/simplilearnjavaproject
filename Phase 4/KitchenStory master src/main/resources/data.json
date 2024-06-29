@@ -1,0 +1,66 @@
+[
+   {
+      "product_image_md":".\/images\/apple.jpg",
+      "_id":"apple",
+      "product_stock":60,
+      "product_price":100,
+      "product_name":"Apples 1kg",
+      "product_image_lg":".\/images\/apple.jpg",
+      "product_image_sm":".\/images\/apple.jpg"
+   },
+   {
+      "product_image_md":".\/images\/spinach.jpg",
+      "_id":"spinach",
+      "product_stock":35,
+      "product_price":6,
+      "product_name":"Spinach",
+      "product_image_lg":".\/images\/spinach.jpg",
+      "product_image_sm":".\/images\/spinach.jpg"
+   },
+   
+   {
+      "product_image_md":".\/images\/wheatFlour.jpeg",
+      "_id":"wheatFlour",
+      "product_stock":100,
+      "product_price":30,
+      "product_name":"Wheat Flour 1Kg",
+      "product_image_lg":".\/images\/wheatFlour.jpeg",
+      "product_image_sm":".\/images\/wheatFlour.jpeg"
+   },
+   {
+      "product_image_md":".\/images\/eggs.jpg",
+      "_id":"eggs",
+      "product_stock":100,
+      "product_price":25,
+      "product_name":"Eggs ",
+      "product_image_lg":".\/images\/eggs.jpg",
+      "product_image_sm":".\/images\/eggs.jpg"
+   },
+   {
+      "product_image_md":".\/images\/sugar.jpeg",
+      "_id":"sugar",
+      "product_stock":100,
+      "product_price":60,
+      "product_name":"Sugar 1Kg",
+      "product_image_lg":".\/images\/sugar.jpeg",
+      "product_image_sm":".\/images\/sugar.jpeg"
+   },
+   {
+      "product_image_md":".\/images\/pepperPowder.jpeg",
+      "_id":"pepperPowder",
+      "product_stock":200,
+      "product_price":15,
+      "product_name":"Pepper powder",
+      "product_image_lg":".\/images\/pepperPowder.jpeg",
+      "product_image_sm":".\/images\/pepperPowder.jpeg"
+   },
+   {
+      "product_image_md":".\/images\/chicken.jpg",
+      "_id":"chicken",
+      "product_stock":100,
+      "product_price":25,
+      "product_name":"Chicken",
+      "product_image_lg":".\/images\/chicken.jpg",
+      "product_image_sm":".\/images\/chicken.jpg"
+   }
+]
