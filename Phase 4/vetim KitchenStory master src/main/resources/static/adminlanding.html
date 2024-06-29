@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+         /* Style all input fields */
+         input {
+         width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+         }
+         body {
+         font-family: Arial, Helvetica, sans-serif;
+         }
+         /* Style the submit button */
+         input[type=button] {
+         background-color: #04AA6D;
+         color: white;
+         width: 100%;
+         }
+         input[type=submit] {
+         background-color: #04AA6D;
+         color: white;
+         width: 100%;
+         }
+         /* Style the container for inputs */
+         .container {
+         background-color: #f1f1f1;
+         padding: 20px;
+         width: 40%;
+         }
+         /* The message box is shown when the user clicks on the password field */
+         #message {
+         display: none;
+         background: #04AA6D;
+         color: #000;
+         position: relative;
+         padding: 20px;
+         margin-top: 10px;
+         }
+         #message p {
+         padding: 10px 35px;
+         font-size: 18px;
+         }
+      </style>
+   </head>
+   <title>Kitchen Story Admin Landing</title>
+   <body>
+      <img src="./images/logo.png" width="350" height="100"> 
+      <br/>
+      <div class="container">
+         <form action="">
+            <input type="button" value="Change password"
+               id="changePasswordButton">
+         </form>
+      </div>
+      <h3>Choose from below options:</h3>
+      <div class="container">
+         <form method="post">
+            <input type="button" value="View master list of items" id="viewMasterProductsListButton">
+            <input type="button" value="Add food items" id="addItemsButton"> 
+            <input type="button" value="Remove food items" id="removeItemsButton">
+         </form>
+      </div>
+      <script type="text/javascript">
+         document.getElementById("viewMasterProductsListButton").onclick = function() {
+         	location.href = "http://localhost:8081/productsmasterlist.html";
+         };
+         document.getElementById("addItemsButton").onclick = function() {
+         	location.href = "http://localhost:8081/addnewproduct.html";
+         };
+         document.getElementById("removeItemsButton").onclick = function() {
+         	location.href = "http://localhost:8081/removeproduct.html";
+         };
+         document.getElementById("changePasswordButton").onclick = function() {
+         	location.href = "http://localhost:8081/changepwd.html";
+         };
+      </script>
+   </body>
+</html>

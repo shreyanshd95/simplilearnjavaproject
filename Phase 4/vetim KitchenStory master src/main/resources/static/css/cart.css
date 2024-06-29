@@ -1,0 +1,45 @@
+body{
+    background-color: #feffff;
+    text-align: center;
+}
+button{
+    padding: 5px;
+    color: #000000;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+    text-decoration:none;
+    border: 1px solid #000000;
+    color: #feffff;
+    background: #0432ff;
+}
+.removeBtn{
+    border: 1px solid #640207;
+    color: #efd8fa;
+    background: #b6063b;
+}
+.removeBtn:hover{
+    color: #ffff;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+h2,h3{
+    text-align: center;
+    color: #35013f;
+}

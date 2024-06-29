@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang=en xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Results</title>
+</head>
+<body>
+	<img src="./images/logo.png" width="350" height="100"> 
+	<hr>
+	<div th:if="${successMsg != null}">
+		<span style="color: red; font-family: Arial, Helvetica, sans-serif;" th:text="${successMsg}"></span>
+	</div>
+	<div th:if="${errorMsg != null}">
+		<span style="color: red; font-family: Arial, Helvetica, sans-serif;" th:text="${errorMsg}"></span>
+	</div>
+	<hr>
+</body>
+</html>
